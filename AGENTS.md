@@ -5,10 +5,11 @@
 Build a personal portfolio for Omari Eatman that introduces his work, highlights projects, and helps visitors get in touch.
 
 Planned pages:
-- `index.html`: Home page with a brief introduction, featured projects, and links to the other pages.
-- `about.html`: About page with a biography, skills, and experience supplied by the owner.
-- `projects.html`: Projects page with project descriptions, images, and links to demos or source code where available.
-- `contact.html`: Contact page with contact details and social links supplied by the owner.
+- `index.html`: Home page with a brief introduction to the owner and navigation links to all other pages.
+- `about.html`: About Me page with personal background, education, and interests supplied by the owner.
+- `projects.html`: Projects page showcasing at least three projects; class projects count. Include a description and images or screenshots for each project, plus links to demos or source code when applicable.
+- `skills.html`: Skills page listing the owner's technical skills and proficiencies.
+- `contact.html`: Contact page with contact information supplied by the owner or a contact form. There is no backend, so a form cannot send messages. If a form is included, validate it with JavaScript and direct visitors to the owner's email. Clearly explain this behavior and do not display a false message-sent confirmation.
 
 Do not invent personal details, qualifications, projects, testimonials, or contact information. Use clearly marked placeholders when content is missing.
 
