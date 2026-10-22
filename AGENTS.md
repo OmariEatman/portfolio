@@ -24,6 +24,9 @@ Use this starting design direction unless the owner requests a change:
 ## Implementation rules
 
 - Use plain HTML, CSS, and JavaScript only.
+- Use semantic HTML5 elements such as `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>`.
+- Organize content logically within the HTML structure.
+- Use one `<h1>` per page.
 - Do not introduce frameworks, component libraries, CSS frameworks, or build tools.
 - Use relative file paths for internal navigation, stylesheets, scripts, images, and other local assets. External destinations may use full URLs.
 - Keep shared styles in `css/styles.css`, shared JavaScript in `js/main.js`, and images in `images/` when those assets are needed.
