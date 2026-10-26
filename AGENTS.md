@@ -17,7 +17,7 @@ Do not invent personal details, qualifications, projects, testimonials, or conta
 
 Use this starting design direction unless the owner requests a change:
 - Light mode: navy (`#0F172A`) primary text, white (`#FFFFFF`) main background, and dark gray (`#444444`) for secondary surfaces. Use white text and light blue (`#BFFAFF`) accents on dark gray surfaces. Use a muted navy (`#526174`) for introductory paragraphs.
-- Dark mode: light blue (`#44D4D4`) primary text, black (`#000000`) main background, and light gray (`#F1F5F9`) for secondary surfaces. Use navy text and teal (`#0F766E`) accents on light gray surfaces. Use light blue (`#99FFFF`) for introductory paragraphs.
+- Dark mode: light blue (`#44D4D4`) primary text, black (`#000000`) main background, and light gray (`#F1F5F9`) for secondary surfaces. Use navy text and teal (`#0F766E`) accents on light gray surfaces. Use light blue (`#B2D4D4`) for introductory paragraphs.
 - Keep teal (`#0F766E`) links and accents on the white light-mode and black-mode background.
 - Provide an accessible light/dark mode toggle on every page. Default to light mode and remember the selection in local storage when available.
 - Fonts: use a system sans-serif stack such as `Arial, Helvetica, sans-serif` throughout, with bold headings and readable body text.
