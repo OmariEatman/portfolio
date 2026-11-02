@@ -241,6 +241,50 @@ h3{
 .card a:focus-visible,.row a:focus-visible{
   outline-color:var(--surface-accent)
 }
+.accordion{
+  background:var(--soft);
+  color:var(--surface-text);
+  border-bottom:1px solid var(--line);
+}
+.accordion summary{
+  display:flex;
+  align-items:center;
+  gap:24px;
+  padding:24px 20px;
+  cursor:pointer;
+  list-style:none;
+}
+.accordion summary::-webkit-details-marker{
+  display:none;
+}
+.accordion summary::after{
+  content:"";
+  width:10px;
+  height:10px;
+  border-right:2px solid var(--surface-accent);
+  border-bottom:2px solid var(--surface-accent);
+  transform:rotate(-45deg);
+  margin-left:auto;
+  flex-shrink:0;
+}
+.accordion[open] summary::after{
+  transform:rotate(45deg);
+}
+.accordion summary:focus-visible{
+  outline:3px solid var(--surface-accent);
+  outline-offset:-4px;
+}
+.accordion h2{
+  margin:0;
+  font-size:clamp(18px,4vw,24px);
+}
+.accordion .number{
+  color:var(--surface-accent);
+}
+.accordion p{
+  margin:0;
+  padding:0 20px 28px;
+}
 .contact-panel{
   background:var(--soft);
   color:var(--surface-text);
