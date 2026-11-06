@@ -304,6 +304,19 @@ h3{
 .contact-panel a:focus-visible{
   outline-color:var(--surface-accent)
 }
+.contact-link{
+  display:inline-flex;
+  align-items:center;
+  gap:12px;
+  max-width:100%;
+}
+.contact-link img{
+  flex-shrink:0;
+}
+.contact-link span{
+  overflow-wrap:anywhere;
+  min-width:0;
+}
 footer{
   border-top:1px solid var(--line);
   padding:28px 0;
